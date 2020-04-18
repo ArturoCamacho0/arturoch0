@@ -1,0 +1,125 @@
+@font-face{
+    font-family: "Bombtrack";
+	src: url("fonts/Bombtrack.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+**{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    cursor: pointer;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-image: url("images/fondo.jpg");
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+}
+
+#header > h1{
+    font-family: "Bombtrack", "Arial";
+    font-size: 60px;
+    text-shadow: 0px 0px 3px white;
+}
+
+#header > h1:hover{
+    text-shadow: 3px 3px 10px black;
+    cursor: default;
+    color: white;
+}
+
+#menu{
+    width: 50%;
+}
+
+#menu > ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu > ul > a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-shadow: 0px 0px 3px white;
+    width: 24%;
+    border-radius: 3px;
+    margin-right: 2px;
+}
+
+#c{
+    background-color: white;
+    border-radius: 3px;
+}
+
+#c:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 5px black;
+}
+
+#menu > ul > a:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 5px black;
+}
+
+#menu > ul > a > li{
+    display: flex;
+    text-justify: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#section{
+    display: flex;
+    width: 90%;
+    box-shadow: 0px 0px 10px black;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#section > img{
+    width: 360px;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#section > div{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    padding: 10px;
+    margin-top: 10px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}

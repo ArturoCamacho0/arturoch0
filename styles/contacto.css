@@ -1,0 +1,211 @@
+@font-face{
+    font-family: "Bombtrack";
+	src: url("fonts/Bombtrack.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+**{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-image: url("images/fondo.jpg");
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+}
+
+#header > h1{
+    font-family: "Bombtrack", "Arial";
+    font-size: 60px;
+    text-shadow: 0px 0px 3px white;
+}
+
+#header > h1:hover{
+    text-shadow: 3px 3px 10px black;
+    cursor: default;
+    color: white;
+}
+
+#menu{
+    width: 50%;
+}
+
+#menu > ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu > ul > a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-shadow: 0px 0px 3px white;
+    width: 24%;
+    border-radius: 3px;
+    margin-right: 2px;
+}
+
+#c{
+    background-color: white;
+    border-radius: 3px;
+}
+
+#c:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 5px black;
+}
+
+#menu > ul > a:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 5px black;
+}
+
+#menu > ul > a > li{
+    display: flex;
+    text-justify: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#section{
+    display: flex;
+    width: 90%;
+    box-shadow: 0px 0px 10px black;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    flex-flow: column;
+}
+
+#section > h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+
+#section > div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.red{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height:200px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+.red > div{
+    margin-top: 20px;
+    display: none;
+}
+
+.red > img{
+    display: none;
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.red:hover{
+    box-shadow: 0px 0px 10px black;
+    background-color: white;
+    color: black;
+    opacity: 1;
+}
+
+.red:hover > div{
+    display: flex;
+}
+
+.red:hover > img{
+    display: flex;
+}
+
+
+#yt{
+    width: 80px;
+    height: 55px;
+    margin-bottom: 20px;
+}
+
+.facebook{
+    background-color: #3b5998;
+}
+
+.instagram{
+    background-color: #c08d64;
+}
+
+.twitter{
+    background-color: #00acee;
+}
+
+.youtube{
+    background-color: #c4302b;
+}
+
+.linkedin{
+    background-color: #0e76a8;
+}
+
+#correo{
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#correo:hover{
+    background-color: black;
+}
+
+#correo:hover > a{
+    color: white;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    padding: 10px;
+    margin-top: 10px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
